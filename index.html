@@ -1,5 +1,14 @@
 ---
 layout: default
+block:
+  - title: bob
+    para: bob
+    pic: bob
+    pic-des: bob
+  - title: bob
+    para: bob
+    pic: bob
+    pic-des: bob
 ---
 
 
@@ -8,6 +17,7 @@ layout: default
 </header>
 
 <section class="grid">
+  {% for block in page.blocks %}
   <div class="col-6 text-sec">
     <h2>Lorem ipsum</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -20,19 +30,7 @@ layout: default
       </div>
     </div>
   </div>
-  <div class="col-6 grad-1">
-    <div class="grad-2">
-
-      <div class="bike-2">
-
-      </div>
-    </div>
-  </div>
-  <div class="col-6 text-sec">
-    <h2>Lorem ipsum</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-
+  {% endfor %}
 </section>
 
 
@@ -40,5 +38,4 @@ layout: default
   <h2>
     <p>copyright stuff</p>
   </h2>
-
 </footer>
