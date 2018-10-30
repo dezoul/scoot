@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin:0;
+  background-position: center;
+  background-size: cover;
+}
+
+body{
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header{
+  background-image: url("/img/bike1.jpg");
+  min-height: 90vh;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer{
+  background-color: #000;
+  color: #fff;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1,h2,h3{
+  font-family: 'Patrick Hand', cursive;
+}
+
+h1{
+  font-size: 5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff ;
+  padding: 3vw;
+  border-radius: 2vw
+ }
+
+ .text-sec{
+   padding: 2vw 3vw;
+ }
+
+ .text-sec h2{
+   padding-bottom: 1vw
+ }
+
+.grad-1{
+  padding: 0;
+  margin: 0;
+  background-size: 300%;
+  background-image: url(/img/bike1.jpg);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: grad-2;
+          animation-name: grad-2;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          -webkit-animation-timing-function:ease;
+                  animation-timing-function:ease;
+}
+
+@-webkit-keyframes grad-1 {
+    0% {background-position: top left;}
+    25% {background-position: top right;}
+    50% {background-position: bottom right;}
+    75% {background-position: bottom left;}
+    100% {background-position: top left;}
+
+}
+
+@keyframes grad-1 {
+    0% {background-position: top left;}
+    25% {background-position: top right;}
+    50% {background-position: bottom right;}
+    75% {background-position: bottom left;}
+    100% {background-position: top left;}
+
+}
+
+
+@-webkit-keyframes grad-2 {
+    0% {background-position: top left;}
+    16.7% {background-position: top right;}
+    52.1% {background-position: bottom left;}
+    68.8% {background-position: bottom right;}
+    100% {background-position: top left;}
+
+}
+
+
+@keyframes grad-2 {
+    0% {background-position: top left;}
+    16.7% {background-position: top right;}
+    52.1% {background-position: bottom left;}
+    68.8% {background-position: bottom right;}
+    100% {background-position: top left;}
+
+}
