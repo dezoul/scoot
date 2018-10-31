@@ -2,6 +2,6 @@
 layout: default
 ---
 {% for block in page.blocks %}
-{% include block-{{ section.block }}.html %}
+{% include {{ block.name }}.html %}
 {% endfor %}
 {{content}}
