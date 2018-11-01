@@ -1,0 +1,11 @@
+---
+label: textbanner
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: text
+- type: file
+  label: banner pic
+  name: pic
