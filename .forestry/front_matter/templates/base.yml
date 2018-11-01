@@ -1,0 +1,17 @@
+---
+label: base
+hide_body: false
+is_partial: false
+fields:
+- type: blocks
+  template_types:
+  - 2-colum-text-then-pic
+  - textbanner
+  label: blocks
+  name: block
+  hidden: false
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: block
