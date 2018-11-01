@@ -9,9 +9,7 @@ fields:
   hidden: false
   default: blocks
 - type: blocks
-  name: block
-  label: sections
-  template_types:
-  - 2-colum-text-then-pic
+  name: section
+  label: section
 pages:
 - content/bob.md
