@@ -11,5 +11,7 @@ fields:
 - type: blocks
   name: section
   label: section
+  template_types:
+  - 2-colum-text-then-pic-a4e3414c-b20f-4125-88a7-dfce0dd796a0
 pages:
 - content/bob.md
