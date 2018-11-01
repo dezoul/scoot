@@ -8,5 +8,10 @@ fields:
   type: text
   hidden: false
   default: blocks
+- type: blocks
+  name: block
+  label: sections
+  template_types:
+  - 2-colum-text-then-pic
 pages:
 - content/bob.md
