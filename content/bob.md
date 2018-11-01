@@ -8,6 +8,5 @@ block:
   para: bob
 - template: textbanner
   title: bob
-published: false
 
 ---
