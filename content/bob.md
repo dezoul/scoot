@@ -12,6 +12,5 @@ block:
   title: bob
   para: bob
   pic-des: bob
-published: false
 
 ---
