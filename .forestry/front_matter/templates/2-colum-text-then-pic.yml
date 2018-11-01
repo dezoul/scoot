@@ -9,7 +9,7 @@ fields:
   hidden: false
   default: blocks
 - type: blocks
-  name: section
+  name: block
   label: section
   template_types:
   - 2-colum-text-then-pic-a4e3414c-b20f-4125-88a7-dfce0dd796a0
