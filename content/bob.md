@@ -11,5 +11,9 @@ block:
   title: bob
   para: bob
   pic-des: bob
+- template: 2-colum-text-then-pic
+  title: bob
+  para: bob
+  pic-des: bob
 
 ---
