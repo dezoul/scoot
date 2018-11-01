@@ -14,5 +14,3 @@ fields:
   label: layout
   default: block
   hidden: true
-pages:
-- content/bob.md
