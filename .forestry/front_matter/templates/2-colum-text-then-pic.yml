@@ -8,5 +8,11 @@ fields:
   type: text
   hidden: false
   default: blocks
+- type: blocks
+  label: Sections
+  name: blocks
+  description: sections
+  config:
+    min: '1'
 pages:
 - content/bob.md
