@@ -7,6 +7,7 @@ fields:
   name: block
   label: block
   template_types:
+  - 2-colum-pic-then-text
   - 2-colum-text-then-pic
   - textbanner
 - type: text
