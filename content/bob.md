@@ -2,6 +2,8 @@
 title: bob
 layout: block
 date: 2018-11-01 00:16:42 +0000
-block: []
+block:
+- template: textbanner
+- template: 2-colum-text-then-pic-addff99a-3cf1-4afb-9221-97dbe36ace88
 
 ---
