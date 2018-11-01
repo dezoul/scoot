@@ -9,5 +9,10 @@ fields:
   template_types:
   - 2-colum-text-then-pic
   - textbanner
+- type: text
+  name: layout
+  label: layout
+  default: block
+  hidden: true
 pages:
 - content/bob.md
