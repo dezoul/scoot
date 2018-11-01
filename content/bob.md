@@ -34,5 +34,8 @@ undefined:
   para: 2-colum-text-then-pic
   pic-des: 2-colum-text-then-pic
 - template: 2-colum-text-then-pic
+  title: 2-colum-text-then-pic
+  para: 2-colum-text-then-pic
+  pic-des: 2-colum-text-then-pic
 
 ---
