@@ -1,0 +1,17 @@
+---
+label: 2-colum-pic-then-text
+hide_body: false
+is_partial: true
+fields:
+- type: file
+  label: pic
+  name: pic
+- type: text
+  label: pic-des
+  name: pic-des
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: para
+  label: para
