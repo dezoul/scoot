@@ -8,13 +8,5 @@ fields:
   type: text
   hidden: false
   default: blocks
-- type: blocks
-  label: Sections
-  name: blocks
-  description: sections
-  config:
-    min: '1'
-  template_types:
-  - 2-colum-text-then-pic-202454ef-b6b7-4314-8639-efccf16c5314
 pages:
 - content/bob.md
