@@ -10,6 +10,7 @@ fields:
   default: block
 - type: blocks
   template_types:
+  - textbanner
   - 2-colum-text-then-pic
   label: section
   name: block
